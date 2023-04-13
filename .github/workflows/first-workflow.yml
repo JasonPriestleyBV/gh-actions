@@ -12,3 +12,7 @@ jobs:
         run: echo "Hello Github Actions"
       - name: Print Goodbye
         run: echo "It's over"
+      - name: multiline commad
+        run: |
+          echo "line 1"
+          echo "line 2"
