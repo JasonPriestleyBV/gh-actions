@@ -1,0 +1,14 @@
+name: First Workflow
+
+#Defines WHEN the workflow is triggered (events)
+on: workflow_dispatch
+
+#where the work is done 
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello Github Actions"
+      - name: Print Goodbye
+        run: echo "It's over"
